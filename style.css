@@ -1,0 +1,89 @@
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* คอนเทนเนอร์หลัก */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อ */
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+/* ปุ่มย้อนกลับ */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
+
+/* รายการผู้ใช้ */
+.user-item {
+    background: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.user-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* รายละเอียดผู้ใช้ */
+.user-detail p {
+    margin: 5px 0;
+}
+
+/* โพสต์ของผู้ใช้ */
+.post-item {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* ปุ่มดูความคิดเห็น */
+.toggle-comments {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-comments:hover {
+    background: #218838;
+}
+
+/* ความคิดเห็น */
+.comments {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
